@@ -1,0 +1,13 @@
+todo:
+    -
+        title: 'SymfonyLive Slides'
+        is_finished: 1
+    -
+        title: 'SymfonyLive Review'
+        is_finished: 1
+    -
+        title: 'SymfonyLive Talk!'
+        is_finished: 0
+    -
+        title: 'Give away swag!'
+        is_finished: 0

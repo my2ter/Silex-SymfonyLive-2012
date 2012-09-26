@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-0": {"Todo": "src/"}
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "silex/silex": "1.0.*",
+        "twig/twig": "dev-master",
+        "kriswallsmith/assetic": "dev-master",
+        "fate/silex-extensions": "*",
+        "jms/twig-js": "*",
+        "doctrine/dbal": "2.3.*",
+        "symfony/console": "dev-master",
+        "symfony/yaml": "dev-master"
+    }
+}
