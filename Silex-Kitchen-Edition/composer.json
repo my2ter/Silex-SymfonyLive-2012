@@ -1,0 +1,57 @@
+{
+    "name"        : "lyrixx/Silex-Kitchen-Edition",
+    "type"        : "library",
+    "description" : "A Silex Edition. This project is a base for your silex applications.",
+    "keywords"    : ["framework"],
+    "homepage"    : "http://lyrixx.github.com/Silex-Kitchen-Edition/",
+    "license"     : "MIT",
+    "authors"     : [
+        {
+            "name"  : "Grégoire Pineau",
+            "email" : "lyrixx@lyrixx.info"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name"    : "twitter/bootstrap",
+                "version" : "2.1.1",
+                "source"  : {
+                    "url"       : "https://github.com/twitter/bootstrap.git",
+                    "type"      : "git",
+                    "reference" : "v2.1.1"
+                }
+            }
+        }
+    ],
+    "require": {
+        "php"                   : ">=5.3.3",
+        "silex/silex"           : "dev-master",
+        "twig/twig"             : "1.*",
+        "monolog/monolog"       : "1.0.*",
+        "symfony/form"          : "2.1.*",
+        "symfony/translation"   : "2.1.*",
+        "symfony/twig-bridge"   : "2.1.*",
+        "symfony/validator"     : "2.1.*",
+        "symfony/yaml"          : "2.1.*",
+        "symfony/config"        : "2.1.*",
+        "kriswallsmith/assetic" : "1.0.*",
+        "twitter/bootstrap"     : "2.1.1",
+        "mheap/silex-assetic"   : "dev-master"
+    },
+    "require-dev": {
+        "symfony/dom-crawler"   : "2.1.*",
+        "symfony/css-selector"  : "2.1.*",
+        "symfony/browser-kit"   : "2.1.*"
+    },
+    "minimum-stability" : "dev",
+    "scripts": {
+        "post-install-cmd": "Lx\\Composer\\Script::postInstall"
+    },
+    "autoload": {
+        "psr-0": {
+            "Lx": "src/"
+        }
+    }
+}
