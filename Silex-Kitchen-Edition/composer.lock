@@ -50,12 +50,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mheap/Silex-Assetic.git",
-                "reference": "e6a52926536263cad2e647ee67a57908840f2737"
+                "reference": "1345353ba935de524f3b9a18b9ea1083981879c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/mheap/Silex-Assetic/zipball/e6a52926536263cad2e647ee67a57908840f2737",
-                "reference": "e6a52926536263cad2e647ee67a57908840f2737",
+                "url": "https://github.com/mheap/Silex-Assetic/zipball/1345353ba935de524f3b9a18b9ea1083981879c6",
+                "reference": "1345353ba935de524f3b9a18b9ea1083981879c6",
                 "shasum": ""
             },
             "require": {
@@ -70,7 +70,7 @@
             "suggest": {
                 "twig/twig": ">=1.2.0"
             },
-            "time": "1348503694",
+            "time": "1349188393",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -195,49 +195,51 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Silex.git",
-                "reference": "9b63007bbdf6a5f68ab402c76fbaf9df56c67342"
+                "reference": "dd39fd366b7e978ed6b48923290f0b55d99d0d91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Silex/zipball/9b63007bbdf6a5f68ab402c76fbaf9df56c67342",
-                "reference": "9b63007bbdf6a5f68ab402c76fbaf9df56c67342",
+                "url": "https://github.com/fabpot/Silex/zipball/dd39fd366b7e978ed6b48923290f0b55d99d0d91",
+                "reference": "dd39fd366b7e978ed6b48923290f0b55d99d0d91",
                 "shasum": ""
             },
             "require": {
-                "symfony/event-dispatcher": "2.1.*",
-                "symfony/http-foundation": "2.1.*",
-                "symfony/http-kernel": "2.1.*",
-                "symfony/routing": "2.1.*",
                 "php": ">=5.3.3",
-                "pimple/pimple": "1.*"
+                "pimple/pimple": "1.*",
+                "symfony/event-dispatcher": ">=2.1,<2.3-dev",
+                "symfony/http-foundation": ">=2.1,<2.3-dev",
+                "symfony/http-kernel": ">=2.1,<2.3-dev",
+                "symfony/routing": ">=2.1,<2.3-dev"
             },
             "require-dev": {
-                "symfony/form": "2.1.*",
-                "symfony/translation": "2.1.*",
-                "symfony/twig-bridge": "2.1.*",
-                "symfony/validator": "2.1.*",
-                "symfony/monolog-bridge": "2.1.*",
-                "symfony/browser-kit": "2.1.*",
-                "symfony/css-selector": "2.1.*",
-                "symfony/finder": "2.1.*",
-                "symfony/process": "2.1.*",
-                "symfony/security": "2.1.*",
                 "monolog/monolog": ">=1.0.0,<1.2-dev",
-                "symfony/config": "2.1.*",
-                "symfony/locale": "2.1.*",
                 "twig/twig": ">=1.8.0,<2.0-dev",
                 "swiftmailer/swiftmailer": "4.2.*",
-                "doctrine/dbal": ">=2.2.0,<2.4.0-dev"
+                "doctrine/dbal": ">=2.2.0,<2.4.0-dev",
+                "symfony/security": ">=2.1,<2.3-dev",
+                "symfony/config": ">=2.1,<2.3-dev",
+                "symfony/locale": ">=2.1,<2.3-dev",
+                "symfony/form": ">=2.1,<2.3-dev",
+                "symfony/browser-kit": ">=2.1,<2.3-dev",
+                "symfony/css-selector": ">=2.1,<2.3-dev",
+                "symfony/finder": ">=2.1,<2.3-dev",
+                "symfony/monolog-bridge": ">=2.1,<2.3-dev",
+                "symfony/process": ">=2.1,<2.3-dev",
+                "symfony/translation": ">=2.1,<2.3-dev",
+                "symfony/twig-bridge": ">=2.1,<2.3-dev",
+                "symfony/validator": ">=2.1,<2.3-dev",
+                "symfony/serializer": ">=2.1,<2.3-dev"
             },
             "suggest": {
-                "symfony/browser-kit": "2.1.*",
-                "symfony/css-selector": "2.1.*",
-                "symfony/dom-crawler": "2.1.*"
+                "symfony/browser-kit": ">=2.1,<2.3-dev",
+                "symfony/css-selector": ">=2.1,<2.3-dev",
+                "symfony/dom-crawler": ">=2.1,<2.3-dev"
             },
+            "time": "1351701053",
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "installation-source": "source",
@@ -264,8 +266,7 @@
             "homepage": "http://silex.sensiolabs.org",
             "keywords": [
                 "microframework"
-            ],
-            "time": "1348229548"
+            ]
         },
         {
             "name": "symfony/config",
@@ -274,17 +275,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Config",
-                "reference": "3168f7d2c77c5e8309b9f7ff8502315317a94f7c"
+                "reference": "v2.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Config/zipball/3168f7d2c77c5e8309b9f7ff8502315317a94f7c",
-                "reference": "3168f7d2c77c5e8309b9f7ff8502315317a94f7c",
+                "url": "https://github.com/symfony/Config/zipball/v2.1.3",
+                "reference": "v2.1.3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+            "time": "1350717030",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -311,8 +313,7 @@
                 }
             ],
             "description": "Symfony Config Component",
-            "homepage": "http://symfony.com",
-            "time": "1348209286"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -321,12 +322,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher",
-                "reference": "v2.1.2"
+                "reference": "v2.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/EventDispatcher/zipball/v2.1.2",
-                "reference": "v2.1.2",
+                "url": "https://github.com/symfony/EventDispatcher/zipball/v2.1.3",
+                "reference": "v2.1.3",
                 "shasum": ""
             },
             "require": {
@@ -339,6 +340,7 @@
                 "symfony/dependency-injection": "2.1.*",
                 "symfony/http-kernel": "2.1.*"
             },
+            "time": "1349363877",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -365,8 +367,7 @@
                 }
             ],
             "description": "Symfony EventDispatcher Component",
-            "homepage": "http://symfony.com",
-            "time": "1347274422"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/finder",
@@ -375,17 +376,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder",
-                "reference": "v2.1.0-RC2"
+                "reference": "v2.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Finder/zipball/v2.1.0-RC2",
-                "reference": "v2.1.0-RC2",
+                "url": "https://github.com/symfony/Finder/zipball/v2.1.3",
+                "reference": "v2.1.3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+            "time": "1350717030",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -412,8 +414,7 @@
                 }
             ],
             "description": "Symfony Finder Component",
-            "homepage": "http://symfony.com",
-            "time": "1345643321"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/form",
@@ -422,12 +423,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Form",
-                "reference": "v2.1.2"
+                "reference": "852f706eacf7cae6bbe2a0c43e8fa80bea3d0516"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Form/zipball/v2.1.2",
-                "reference": "v2.1.2",
+                "url": "https://github.com/symfony/Form/zipball/852f706eacf7cae6bbe2a0c43e8fa80bea3d0516",
+                "reference": "852f706eacf7cae6bbe2a0c43e8fa80bea3d0516",
                 "shasum": ""
             },
             "require": {
@@ -444,6 +445,7 @@
                 "symfony/validator": "2.1.*",
                 "symfony/http-foundation": "2.1.*"
             },
+            "time": "1351864459",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -470,8 +472,7 @@
                 }
             ],
             "description": "Symfony Form Component",
-            "homepage": "http://symfony.com",
-            "time": "1348035223"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/http-foundation",
@@ -480,17 +481,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation",
-                "reference": "386a332456060076778ba8e6b84bed0480eaa69c"
+                "reference": "989b9a4d5a63dc51b33bcc5c855a555f4961ba82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/HttpFoundation/zipball/386a332456060076778ba8e6b84bed0480eaa69c",
-                "reference": "386a332456060076778ba8e6b84bed0480eaa69c",
+                "url": "https://github.com/symfony/HttpFoundation/zipball/989b9a4d5a63dc51b33bcc5c855a555f4961ba82",
+                "reference": "989b9a4d5a63dc51b33bcc5c855a555f4961ba82",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+            "time": "1351854802",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -518,8 +520,7 @@
                 }
             ],
             "description": "Symfony HttpFoundation Component",
-            "homepage": "http://symfony.com",
-            "time": "1348208027"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/http-kernel",
@@ -528,12 +529,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel",
-                "reference": "10f8418126cba9f7e510eb57e53810d41f9f2add"
+                "reference": "45f07adedfc956e07fdef8ba49f4eae402139ced"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/HttpKernel/zipball/10f8418126cba9f7e510eb57e53810d41f9f2add",
-                "reference": "10f8418126cba9f7e510eb57e53810d41f9f2add",
+                "url": "https://github.com/symfony/HttpKernel/zipball/45f07adedfc956e07fdef8ba49f4eae402139ced",
+                "reference": "45f07adedfc956e07fdef8ba49f4eae402139ced",
                 "shasum": ""
             },
             "require": {
@@ -559,6 +560,7 @@
                 "symfony/dependency-injection": "2.1.*",
                 "symfony/finder": "2.1.*"
             },
+            "time": "1351590273",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -585,8 +587,7 @@
                 }
             ],
             "description": "Symfony HttpKernel Component",
-            "homepage": "http://symfony.com",
-            "time": "1348209286"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/locale",
@@ -595,12 +596,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Locale",
-                "reference": "v2.1.2"
+                "reference": "v2.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Locale/zipball/v2.1.2",
-                "reference": "v2.1.2",
+                "url": "https://github.com/symfony/Locale/zipball/v2.1.3",
+                "reference": "v2.1.3",
                 "shasum": ""
             },
             "require": {
@@ -609,6 +610,7 @@
             "suggest": {
                 "ext-intl": ">=5.3.3"
             },
+            "time": "1350717030",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -635,8 +637,7 @@
                 }
             ],
             "description": "Symfony Locale Component",
-            "homepage": "http://symfony.com",
-            "time": "1345643321"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/options-resolver",
@@ -645,17 +646,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/OptionsResolver",
-                "reference": "v2.1.2"
+                "reference": "v2.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/OptionsResolver/zipball/v2.1.2",
-                "reference": "v2.1.2",
+                "url": "https://github.com/symfony/OptionsResolver/zipball/v2.1.3",
+                "reference": "v2.1.3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+            "time": "1349363877",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -687,48 +689,48 @@
                 "configuration",
                 "config",
                 "options"
-            ],
-            "time": "1345643321"
+            ]
         },
         {
             "name": "symfony/routing",
-            "version": "2.1.x-dev",
+            "version": "dev-master",
             "target-dir": "Symfony/Component/Routing",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Routing",
-                "reference": "v2.1.2"
+                "reference": "29792d8ac4ed7308acdeed4933cb6d91b7f6510f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Routing/zipball/v2.1.2",
-                "reference": "v2.1.2",
+                "url": "https://github.com/symfony/Routing/zipball/29792d8ac4ed7308acdeed4933cb6d91b7f6510f",
+                "reference": "29792d8ac4ed7308acdeed4933cb6d91b7f6510f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "symfony/config": "2.1.*",
-                "symfony/yaml": "2.1.*",
-                "symfony/http-kernel": "2.1.*",
-                "doctrine/common": ">=2.2,<2.4-dev"
+                "doctrine/common": ">=2.2,<2.4-dev",
+                "symfony/config": "2.2.*",
+                "symfony/yaml": "2.2.*",
+                "symfony/http-kernel": "2.2.*"
             },
             "suggest": {
                 "doctrine/common": ">=2.2,<2.4-dev",
-                "symfony/config": "2.1.*",
-                "symfony/yaml": "2.1.*"
+                "symfony/config": "2.2.*",
+                "symfony/yaml": "2.2.*"
             },
+            "time": "1351466734",
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "installation-source": "source",
             "autoload": {
                 "psr-0": {
-                    "Symfony\\Component\\Routing": ""
+                    "Symfony\\Component\\Routing\\": ""
                 }
             },
             "license": [
@@ -745,8 +747,7 @@
                 }
             ],
             "description": "Symfony Routing Component",
-            "homepage": "http://symfony.com",
-            "time": "1347274422"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/translation",
@@ -755,12 +756,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Translation",
-                "reference": "v2.1.2"
+                "reference": "v2.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Translation/zipball/v2.1.2",
-                "reference": "v2.1.2",
+                "url": "https://github.com/symfony/Translation/zipball/v2.1.3",
+                "reference": "v2.1.3",
                 "shasum": ""
             },
             "require": {
@@ -774,6 +775,7 @@
                 "symfony/config": "2.1.*",
                 "symfony/yaml": "2.1.*"
             },
+            "time": "1350717030",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -800,8 +802,7 @@
                 }
             ],
             "description": "Symfony Translation Component",
-            "homepage": "http://symfony.com",
-            "time": "1347274422"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/twig-bridge",
@@ -810,12 +811,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/TwigBridge",
-                "reference": "v2.1.2"
+                "reference": "v2.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/TwigBridge/zipball/v2.1.2",
-                "reference": "v2.1.2",
+                "url": "https://github.com/symfony/TwigBridge/zipball/v2.1.3",
+                "reference": "v2.1.3",
                 "shasum": ""
             },
             "require": {
@@ -838,6 +839,7 @@
                 "symfony/yaml": "2.1.*",
                 "symfony/security": "2.1.*"
             },
+            "time": "1349363877",
             "type": "symfony-bridge",
             "extra": {
                 "branch-alias": {
@@ -864,8 +866,7 @@
                 }
             ],
             "description": "Symfony Twig Bridge",
-            "homepage": "http://symfony.com",
-            "time": "1347274422"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/validator",
@@ -874,12 +875,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Validator",
-                "reference": "v2.1.2"
+                "reference": "v2.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Validator/zipball/v2.1.2",
-                "reference": "v2.1.2",
+                "url": "https://github.com/symfony/Validator/zipball/v2.1.3",
+                "reference": "v2.1.3",
                 "shasum": ""
             },
             "require": {
@@ -895,6 +896,7 @@
                 "symfony/http-foundation": "2.1.*",
                 "symfony/yaml": "2.1.*"
             },
+            "time": "1350916632",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -921,8 +923,7 @@
                 }
             ],
             "description": "Symfony Validator Component",
-            "homepage": "http://symfony.com",
-            "time": "1347903959"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "symfony/yaml",
@@ -931,17 +932,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml",
-                "reference": "v2.1.0-RC2"
+                "reference": "v2.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Yaml/zipball/v2.1.0-RC2",
-                "reference": "v2.1.0-RC2",
+                "url": "https://github.com/symfony/Yaml/zipball/v2.1.3",
+                "reference": "v2.1.3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+            "time": "1351509341",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -968,8 +970,7 @@
                 }
             ],
             "description": "Symfony Yaml Component",
-            "homepage": "http://symfony.com",
-            "time": "1345643321"
+            "homepage": "http://symfony.com"
         },
         {
             "name": "twig/twig",
@@ -977,21 +978,22 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Twig.git",
-                "reference": "b4d1d62b82e83c6fd3d5a6cd46a186de64275bb4"
+                "reference": "0879472d7ecfd6b5714b066da152e005d7781b5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Twig/zipball/b4d1d62b82e83c6fd3d5a6cd46a186de64275bb4",
-                "reference": "b4d1d62b82e83c6fd3d5a6cd46a186de64275bb4",
+                "url": "https://github.com/fabpot/Twig/zipball/0879472d7ecfd6b5714b066da152e005d7781b5b",
+                "reference": "0879472d7ecfd6b5714b066da152e005d7781b5b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
+            "time": "1351620822",
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.10-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "installation-source": "source",
@@ -1017,8 +1019,7 @@
             "homepage": "http://twig.sensiolabs.org",
             "keywords": [
                 "templating"
-            ],
-            "time": "1347961095"
+            ]
         },
         {
             "name": "twitter/bootstrap",
@@ -1040,12 +1041,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/BrowserKit",
-                "reference": "v2.1.2"
+                "reference": "v2.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/BrowserKit/zipball/v2.1.2",
-                "reference": "v2.1.2",
+                "url": "https://github.com/symfony/BrowserKit/zipball/v2.1.3",
+                "reference": "v2.1.3",
                 "shasum": ""
             },
             "require": {
@@ -1059,7 +1060,7 @@
             "suggest": {
                 "symfony/process": "2.1.*"
             },
-            "time": "1347274422",
+            "time": "1351170710",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1095,18 +1096,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/CssSelector",
-                "reference": "v2.1.0-RC2"
+                "reference": "v2.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/CssSelector/zipball/v2.1.0-RC2",
-                "reference": "v2.1.0-RC2",
+                "url": "https://github.com/symfony/CssSelector/zipball/v2.1.3",
+                "reference": "v2.1.3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "1345643321",
+            "time": "1349363877",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1142,12 +1143,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler",
-                "reference": "v2.1.2"
+                "reference": "v2.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/DomCrawler/zipball/v2.1.2",
-                "reference": "v2.1.2",
+                "url": "https://github.com/symfony/DomCrawler/zipball/v2.1.3",
+                "reference": "v2.1.3",
                 "shasum": ""
             },
             "require": {
@@ -1159,7 +1160,7 @@
             "suggest": {
                 "symfony/css-selector": "2.1.*"
             },
-            "time": "1347274422",
+            "time": "1350594961",
             "type": "library",
             "extra": {
                 "branch-alias": {
