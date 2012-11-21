@@ -756,12 +756,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Translation",
-                "reference": "0e32a19712ab341e87754042614917ee95a4fea3"
+                "reference": "806431a802d237e15fe38dca0b0460d512854652"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Translation/archive/0e32a19712ab341e87754042614917ee95a4fea3.zip",
-                "reference": "0e32a19712ab341e87754042614917ee95a4fea3",
+                "url": "https://github.com/symfony/Translation/archive/806431a802d237e15fe38dca0b0460d512854652.zip",
+                "reference": "806431a802d237e15fe38dca0b0460d512854652",
                 "shasum": ""
             },
             "require": {
@@ -775,7 +775,7 @@
                 "symfony/config": "2.1.*",
                 "symfony/yaml": "2.1.*"
             },
-            "time": "2012-11-08 09:51:48",
+            "time": "2012-11-21 15:37:42",
             "type": "library",
             "extra": {
                 "branch-alias": {
