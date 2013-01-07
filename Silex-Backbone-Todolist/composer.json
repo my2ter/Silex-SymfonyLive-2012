@@ -4,12 +4,11 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "silex/silex": "1.0.*",
-        "twig/twig": "dev-master",
+        "silex/silex": "dev-master",
         "kriswallsmith/assetic": "dev-master",
         "fate/silex-extensions": "*",
-        "jms/twig-js": "*",
-        "doctrine/dbal": "2.3.*",
+        "jms/twig-js": "dev-master",
+        "doctrine/dbal": "dev-master",
         "symfony/console": "dev-master",
         "symfony/yaml": "dev-master"
     }

@@ -7,18 +7,18 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Pimple.git",
-                "reference": "86df0604a10c5faf20b466ae6a0b762cc6ed0a35"
+                "reference": "f145dc796b76635e5419354e6d7dce4d6c8cd04d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Pimple/archive/86df0604a10c5faf20b466ae6a0b762cc6ed0a35.zip",
-                "reference": "86df0604a10c5faf20b466ae6a0b762cc6ed0a35",
+                "url": "https://github.com/fabpot/Pimple/archive/f145dc796b76635e5419354e6d7dce4d6c8cd04d.zip",
+                "reference": "f145dc796b76635e5419354e6d7dce4d6c8cd04d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "2012-11-11 08:32:34",
+            "time": "2013-01-04 16:53:43",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -31,6 +31,7 @@
                     "Pimple": "lib/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -53,12 +54,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Silex.git",
-                "reference": "7e5e1f88990c010351093691a7ca01e2e94c2706"
+                "reference": "7df600f14887b0342f2d4a90debd6c8e6b44ef7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Silex/archive/7e5e1f88990c010351093691a7ca01e2e94c2706.zip",
-                "reference": "7e5e1f88990c010351093691a7ca01e2e94c2706",
+                "url": "https://github.com/fabpot/Silex/archive/7df600f14887b0342f2d4a90debd6c8e6b44ef7b.zip",
+                "reference": "7df600f14887b0342f2d4a90debd6c8e6b44ef7b",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +94,7 @@
                 "symfony/css-selector": ">=2.1,<2.3-dev",
                 "symfony/dom-crawler": ">=2.1,<2.3-dev"
             },
-            "time": "2012-11-13 15:46:35",
+            "time": "2013-01-04 16:54:30",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -106,6 +107,7 @@
                     "Silex": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -133,12 +135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher",
-                "reference": "eb290a447c0af5bea0d3de5d95d498afd8c82f89"
+                "reference": "0fcc9fa82fa3ea7ec2605af2e8137698fbaca3dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/EventDispatcher/archive/eb290a447c0af5bea0d3de5d95d498afd8c82f89.zip",
-                "reference": "eb290a447c0af5bea0d3de5d95d498afd8c82f89",
+                "url": "https://github.com/symfony/EventDispatcher/archive/0fcc9fa82fa3ea7ec2605af2e8137698fbaca3dc.zip",
+                "reference": "0fcc9fa82fa3ea7ec2605af2e8137698fbaca3dc",
                 "shasum": ""
             },
             "require": {
@@ -151,7 +153,7 @@
                 "symfony/dependency-injection": "2.2.*",
                 "symfony/http-kernel": "2.2.*"
             },
-            "time": "2012-11-13 14:08:04",
+            "time": "2013-01-04 17:02:19",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -164,6 +166,7 @@
                     "Symfony\\Component\\EventDispatcher\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -187,18 +190,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation",
-                "reference": "56335c0d6de1cd7d465fe6c1323b1e8754780bdd"
+                "reference": "94049fb6ab83ef7432f652f40f6ee18618e4a05c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/HttpFoundation/archive/56335c0d6de1cd7d465fe6c1323b1e8754780bdd.zip",
-                "reference": "56335c0d6de1cd7d465fe6c1323b1e8754780bdd",
+                "url": "https://github.com/symfony/HttpFoundation/archive/94049fb6ab83ef7432f652f40f6ee18618e4a05c.zip",
+                "reference": "94049fb6ab83ef7432f652f40f6ee18618e4a05c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "2012-11-19 12:58:52",
+            "time": "2013-01-05 17:52:40",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -214,6 +217,7 @@
                     "Symfony/Component/HttpFoundation/Resources/stubs"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -237,12 +241,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel",
-                "reference": "ab02fd3aed9b7c476819bc43d255f7cb0d471dbb"
+                "reference": "6e8e03641edeb6401bba6dfbe2b7608e116fd3fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/HttpKernel/archive/ab02fd3aed9b7c476819bc43d255f7cb0d471dbb.zip",
-                "reference": "ab02fd3aed9b7c476819bc43d255f7cb0d471dbb",
+                "url": "https://github.com/symfony/HttpKernel/archive/6e8e03641edeb6401bba6dfbe2b7608e116fd3fb.zip",
+                "reference": "6e8e03641edeb6401bba6dfbe2b7608e116fd3fb",
                 "shasum": ""
             },
             "require": {
@@ -269,7 +273,7 @@
                 "symfony/dependency-injection": "2.2.*",
                 "symfony/finder": "2.2.*"
             },
-            "time": "2012-11-21 08:43:39",
+            "time": "2013-01-05 17:52:40",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -282,6 +286,7 @@
                     "Symfony\\Component\\HttpKernel\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -305,12 +310,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Routing",
-                "reference": "52e7becbf50c3ab1bdc4516b530bcd5c1275ca49"
+                "reference": "87a66890450658ccac99702ac5e4f002ece9e23e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Routing/archive/52e7becbf50c3ab1bdc4516b530bcd5c1275ca49.zip",
-                "reference": "52e7becbf50c3ab1bdc4516b530bcd5c1275ca49",
+                "url": "https://github.com/symfony/Routing/archive/87a66890450658ccac99702ac5e4f002ece9e23e.zip",
+                "reference": "87a66890450658ccac99702ac5e4f002ece9e23e",
                 "shasum": ""
             },
             "require": {
@@ -327,7 +332,7 @@
                 "symfony/config": "2.2.*",
                 "symfony/yaml": "2.2.*"
             },
-            "time": "2012-11-19 14:19:02",
+            "time": "2012-12-28 13:21:48",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -340,6 +345,7 @@
                     "Symfony\\Component\\Routing\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
